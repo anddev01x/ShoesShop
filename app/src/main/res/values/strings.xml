@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ShoesShop</string>
+    <string name="tv_profile">Profile</string>
+    <string name="tv_my_cart">My cart</string>
+    <string name="tv_favorite">Favorite</string>
+    <string name="tv_orders">Orders</string>
+    <string name="tv_notification">Notification</string>
+    <string name="tv_setting">Setting</string>
+    <string name="tv_sign_out">Sign out</string>
+    <string name="tv_name">Emmanuel IBrokers</string>
+    <string name="tv_explore">Explore</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_select_category">Select Category</string>
+    <string name="tv_popular_shoes">Popular Shoes</string>
+    <string name="tv_see_all">See all</string>
+</resources>
