@@ -7,6 +7,7 @@ import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import com.example.shoesshop.R
 import com.example.shoesshop.base.BaseActivity
+import com.example.shoesshop.common.extension.clickWithAnimationDebounce
 import com.example.shoesshop.databinding.ActivityMainBinding
 import com.example.shoesshop.features.main.cart.CartFragment
 import com.example.shoesshop.features.main.favorite.FavoriteFragment
@@ -28,6 +29,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>(ActivityMainBinding::infl
     }
 
     private fun initViews() {
+        binding.btOpen.clickWithAnimationDebounce{}
         binding.btOpen.setOnClickListener(this)
         binding.navView.setNavigationItemSelectedListener(this)
         replaceFragment(HomeFragment())
